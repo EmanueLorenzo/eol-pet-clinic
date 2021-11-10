@@ -47,7 +47,7 @@
         </plugins>
     </build>
     <scm>
-        <developerConnection>scm:git:https://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@github.com/EmanueLorenzo/eol-pet-clinic.git</developerConnection>
+        <developerConnection>git@github.com:EmanueLorenzo/eol-pet-clinic.git</developerConnection>
       <tag>eol-pet-clinic-0.0.1</tag>
   </scm>
 </project>
