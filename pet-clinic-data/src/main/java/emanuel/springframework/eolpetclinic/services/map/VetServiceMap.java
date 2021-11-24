@@ -1,11 +1,11 @@
 package emanuel.springframework.eolpetclinic.services.map;
 
 import emanuel.springframework.eolpetclinic.model.Vet;
-import emanuel.springframework.eolpetclinic.services.CrudService;
+import emanuel.springframework.eolpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet,Long> implements CrudService<Vet,Long> {
+public class VetServiceMap extends AbstractMapService<Vet,Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
@@ -30,4 +30,7 @@ public class VetServiceMap extends AbstractMapService<Vet,Long> implements CrudS
     public void deleteById(Long id) {
         super.deleteById(id );
     }
+
+
+
 }
